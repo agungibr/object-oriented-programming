@@ -1,7 +1,31 @@
 package May5.guided;
 
 public class Mahasiswa {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, Mahasiswa!");
+    private String nim;
+    private String nama;
+    protected int nilai;
+    
+    public void setNama(String nama){
+       this.nama = nama;
+    }
+
+    public void setNim(String nim){
+       this.nim = nim;
+    }
+
+    public String getNama(){
+       return this.nama;
+    }
+
+    public String getNim(){
+       return this.nim;
+    }
+
+    public void setNilai(int nilai){
+       this.nilai = nilai;
+    }
+
+    public int getNilai(){
+       return this.nilai;
     }
 }
